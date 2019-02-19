@@ -1,0 +1,48 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# eclipse files #
+######################
+.classpath
+.checkstyle
+.project
+**/test-output/**
+# eclipse pmd plugin files #
+.pmd
+.pmdruleset.xml
+
+# IDEA files #
+######################
+.idea
+atlassian-ide-plugin.xml
+**/*.iml
+**/*.ipr
+**/*.iws
+**/bin/**
+
+# build files #
+######################
+build.properties
+tmp
+target
+*.versionsBackup
+
+# P4 config #
+.p4config
+
+# Local configs
+docker_config.yml
+docker-compose-filled.yml
+docker-compose.yml
+.log
+bookingapp-acceptance-test/src/test/resources/testng-dev.xml
+.mvn
+bookingapp-acceptance-test/logs
